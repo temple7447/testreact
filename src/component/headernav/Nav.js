@@ -1,8 +1,14 @@
 import React from 'react';
 
-function Navbar() {
+function Navbar(prop) {
+
+    
+
+    const {products} = prop;
     return ( 
-        <div>ok</div>
+        <div>
+                <li>{products}</li>
+        </div>
      );
 }
 
